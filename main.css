@@ -1,0 +1,39 @@
+body{
+
+}
+.slidePic{
+	width: 800px;
+	height: 270px;
+	position: relative;
+	margin-top: 100px;
+}
+.slidePic .slide-btn{
+	position: absolute;
+	top: 0;
+	height:100%;
+	width: 100px;
+	cursor: pointer;
+	z-index: 1;
+}
+.slidePic .btn-prev{
+	left: 0;
+	background: url(icon/prev.png) no-repeat center center;
+
+}
+.slidePic .btn-next{
+	right: 0;
+	background: url(icon/next.png) no-repeat center center;
+}
+.slidePic .pic-box{
+	width: 800px;
+	position: relative;
+}
+.slidePic .pic-box .pic-item{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.slidePic .pic-box .pic-item img{
+	width: 100%;
+}
+
